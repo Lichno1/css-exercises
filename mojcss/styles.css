@@ -1,7 +1,26 @@
-h1 {
-    font-weight: bold;
-}
 
 * {
     border: 2px solid red;
+    padding: 0;
+    margin: 0;
+    font-size: 40px;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.box-one {
+    border: 20px solid red;
+    background-color: lightblue;
+    padding: 20px;
+    margin: 20px;
+    height: 100px;
+    width: 100px;
+    box-sizing: border-box;
+}
+
+
+
+.box-two {
+    border: 0 solid blue;
+    background-color: rgb(241, 130, 130);
 }
